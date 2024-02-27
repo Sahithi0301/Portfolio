@@ -4,7 +4,7 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container, Row, Col } from "react-bootstrap";
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel';
-import '/Users/sahithiarekatla/Desktop/Web term project/react-portfolio/src/lib/ionicons/css/ionicons.min.css';
+// import '../../../lib/ionicons/css/ionicons.min.css';
 
 
 import {

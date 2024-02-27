@@ -2,6 +2,8 @@
     "name": "react-portfolio",
     "version": "0.1.0",
     "private": true,
+    "homepage": "https://sahithi0301.github.io/portfolio/",
+
     "dependencies": {
         "algoliasearch": "^4.17.0",
         "bootstrap": "^5.2.3",
