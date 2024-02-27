@@ -1,0 +1,147 @@
+.sec_sp {
+    margin-bottom: calc(3rem + 5.128vw)
+}
+
+
+.profile-image {
+    width: 100%;
+    max-width: 300px; 
+    height: auto;
+  }
+  
+
+
+@-webkit-keyframes animate-positive {
+    0% {
+        width: 0%;
+    }
+}
+
+@keyframes animate-positive {
+    0% {
+        width: 0%;
+    }
+}
+
+.section-title {
+    font-size: 45px;
+}
+
+.service__title {
+    padding: 8px 0;
+    border-bottom: solid 2px var(--secondary-color);
+}
+
+.service-section .service-category-title {
+    padding-bottom: 4px;
+}
+.interests-container {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    width: 100%;
+  }
+  
+  .service {
+    width: 300px;
+    height: 200px;
+    background-color: #fff;
+    margin-right: 20px;
+    position: relative;
+    transition: transform 0.3s ease;
+    scroll-snap-align: start;
+  }
+  
+  .service:hover {
+    transform: scale(1.1);
+  }
+
+
+@-webkit-keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+    }
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+    }
+
+}
+#services {
+  background: #f7f7f7;
+  position: relative;
+  padding-bottom: 80px;
+  padding-top: 35px;
+}
+
+.owl-item {
+  float: left;
+}
+.services-block span {
+  margin: 10px 0;
+  position: relative;
+  font-size: 13px;
+  color: #292929;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  text-transform: uppercase;
+  display: block;
+}
+
+.services-block .separator {
+  margin-top: 10px;
+  font-size: 13px;
+  line-height: 22px;
+}
+
+.services-block i {
+  font-size: 44px;
+  color: #000000;
+  line-height: 44px;
+}
+
+
+.services-carousel  .owl-stage-outer {
+  overflow: hidden;
+}
+
+.services-carousel .owl-dots {
+  margin-top: 5px;
+  text-align: center;
+}
+
+.services-carousel .owl-dot {
+  display: inline-block;
+  margin: 0 5px;
+  width: 12px !important;
+  height: 12px !important;
+  border-radius: 50%;
+  border: 0;
+  padding: 0 !important;
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+.services-carousel .owl-dot.active {
+  background-color: #646464;
+}
+
+.owl-nav {
+  display: none;
+}
