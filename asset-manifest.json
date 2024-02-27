@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.b9c3f321.css",
+    "main.js": "/Portfolio/static/js/main.c1e23a8f.js",
+    "static/media/Sahithi_Arekatla1060.jpg": "/Portfolio/static/media/Sahithi_Arekatla1060.0425f5526c6ea074547c.jpg",
+    "static/media/sahithi.jpg": "/Portfolio/static/media/sahithi.b7da2c714ee7be629ea9.jpg",
+    "static/media/image.jpg": "/Portfolio/static/media/image.a7547547f7addf6603ba.jpg",
+    "index.html": "/Portfolio/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.b9c3f321.css",
+    "static/js/main.c1e23a8f.js"
+  ]
+}
